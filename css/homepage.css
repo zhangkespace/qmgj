@@ -1,0 +1,366 @@
+.clear:after {
+  display: block;
+  content: "";
+  height: 0px;
+  clear: both;
+  overflow: hidden;
+}
+.clear {
+  -ms-zoom: 1;
+}
+.banner {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+.banner .prev {
+  position: absolute;
+  width: 25px;
+  height: 60px;
+  top: 270px;
+  left: 40px;
+  z-index: 1;
+}
+.banner .prev:hover {
+  cursor: pointer;
+}
+.banner .bannertitle {
+  position: absolute;
+  height: 180px;
+  width: 100%;
+  top: 210px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner .bannertitle h1 {
+  font-size: 38px;
+  color: white;
+}
+.banner .bannertitle p {
+  font-size: 16px;
+  color: white;
+  line-height: 70px;
+}
+.banner .bannertitle div {
+  width: 140px;
+  height: 50px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  line-height: 50px;
+  margin: 0 auto;
+  background-color: #ff4200;
+}
+.banner .bannertitle div a {
+  color: white;
+  font-size: 15px;
+}
+.banner .bannertitle div:hover {
+  cursor: pointer;
+}
+.banner .next {
+  position: absolute;
+  width: 25px;
+  height: 60px;
+  top: 270px;
+  right: 40px;
+  z-index: 1;
+}
+.banner .next:hover {
+  cursor: pointer;
+}
+.hotitem {
+  width: 100%;
+  background-color: #f7fafa;
+  padding: 70px 0px;
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+}
+.hotitem .container .hotitemleft {
+  float: left;
+}
+.hotitem .container .hotitemleft p {
+  color: #150b09;
+  font-size: 18px;
+  margin-bottom: 45px;
+  font-weight: bolder;
+}
+.hotitem .container .hotitemleft img {
+  float: left;
+}
+.hotitem .container .hotitemcenter {
+  float: left;
+  width: 520px;
+  margin-left: 40px;
+}
+.hotitem .container .hotitemcenter a {
+  float: right;
+  font-size: 12px;
+  color: #828587;
+}
+.hotitem .container .hotitemcenter h3 {
+  margin-top: 65px;
+  font-size: 18px;
+  color: #150b09;
+}
+.hotitem .container .hotitemcenter span {
+  color: #828587;
+  font-size: 12px;
+}
+.hotitem .container .hotitemcenter p {
+  color: #828587;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+.hotitem .container .hotitemcenter div span {
+  color: #828587;
+  font-size: 12px;
+  margin-right: 20px;
+}
+.hotitem .container .hotitemcenter div ul li {
+  float: left;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+.hotitem .container .hotitemcenter div ul li p {
+  color: #150b09;
+  font-size: 16px;
+  margin: 0px;
+  font-weight: bolder;
+}
+.hotitem .container .hotitemright {
+  float: right;
+  width: 200px;
+  border-left: 1px solid #dadada;
+}
+.hotitem .container .hotitemright ul li {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  border-left: 2px solid transparent;
+}
+.hotitem .container .hotitemright ul li a {
+  color: #150b09;
+  font-size: 12px;
+}
+.hotitem .container .hotitemright ul li:hover {
+  border-left: 2px solid #ff4200;
+}
+.hotitem .container .hotitemright ul li:hover a {
+  color: #ff4200;
+}
+.tvhot {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.tvhot .tvhottop {
+  margin-bottom: 40px;
+}
+.tvhot .tvhottop p {
+  float: left;
+  color: #150b09;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.tvhot .tvhottop div {
+  float: right;
+  width: 60px;
+  height: 30px;
+  border: 1px solid #a7a9aa;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  text-align: center;
+  line-height: 30px;
+  color: #a7a9aa;
+  font-size: 11px;
+  cursor: pointer;
+}
+.tvhot .tvhot1 {
+  width: 320px;
+  border: 1px solid #a7a9aa;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  float: left;
+  margin: 0px 34px;
+}
+.tvhot .tvhot1 .tvhot1img {
+  width: 320px;
+  height: 235px;
+}
+.tvhot .tvhot1 .tvhot1img img {
+  width: 100%;
+  height: 100%;
+}
+.tvhot .tvhot1 .tvhot1bottom {
+  padding: 15px;
+}
+.tvhot .tvhot1 .tvhot1bottom h3 {
+  color: #150b09;
+  font-size: 14px;
+}
+.tvhot .tvhot1 .tvhot1bottom span {
+  font-size: 11px;
+  color: #828587;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: block;
+}
+.tvhot .tvhot1 .tvhot1bottom p {
+  color: #828587;
+  font-size: 11px;
+}
+.tvhot .tvhot1 .tvhot1bottom div span {
+  color: #828587;
+  font-size: 12px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.tvhot .tvhot1 .tvhot1bottom div ul li {
+  float: left;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+.tvhot .tvhot1 .tvhot1bottom div ul li p {
+  color: #150b09;
+  font-size: 16px;
+  margin: 0px;
+  font-weight: bolder;
+}
+.tvhot .tvhot1 .tvhot1bottom div ul li span {
+  color: #828587;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.tvhot .tvhot2 {
+  width: 320px;
+  border: 1px solid #a7a9aa;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  float: left;
+  margin: 0px 34px;
+}
+.tvhot .tvhot2 .tvhot2img {
+  width: 320px;
+  height: 235px;
+}
+.tvhot .tvhot2 .tvhot2img img {
+  width: 100%;
+  height: 100%;
+}
+.tvhot .tvhot2 .tvhot2bottom {
+  padding: 15px;
+}
+.tvhot .tvhot2 .tvhot2bottom h3 {
+  color: #150b09;
+  font-size: 14px;
+}
+.tvhot .tvhot2 .tvhot2bottom span {
+  font-size: 11px;
+  color: #828587;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: block;
+}
+.tvhot .tvhot2 .tvhot2bottom p {
+  color: #828587;
+  font-size: 11px;
+}
+.tvhot .tvhot2 .tvhot2bottom div span {
+  color: #828587;
+  font-size: 12px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.tvhot .tvhot2 .tvhot2bottom div ul li {
+  float: left;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+.tvhot .tvhot2 .tvhot2bottom div ul li p {
+  color: #150b09;
+  font-size: 16px;
+  margin: 0px;
+  font-weight: bolder;
+}
+.tvhot .tvhot2 .tvhot2bottom div ul li span {
+  color: #828587;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.tvhot .tvhot3 {
+  width: 320px;
+  border: 1px solid #a7a9aa;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  float: left;
+  margin: 0px 34px;
+}
+.tvhot .tvhot3 .tvhot3img {
+  width: 320px;
+  height: 235px;
+}
+.tvhot .tvhot3 .tvhot3img img {
+  width: 100%;
+  height: 100%;
+}
+.tvhot .tvhot3 .tvhot3bottom {
+  padding: 15px;
+}
+.tvhot .tvhot3 .tvhot3bottom h3 {
+  color: #150b09;
+  font-size: 14px;
+}
+.tvhot .tvhot3 .tvhot3bottom span {
+  font-size: 11px;
+  color: #828587;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: block;
+}
+.tvhot .tvhot3 .tvhot3bottom p {
+  color: #828587;
+  font-size: 11px;
+}
+.tvhot .tvhot3 .tvhot3bottom div span {
+  color: #828587;
+  font-size: 12px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.tvhot .tvhot3 .tvhot3bottom div ul li {
+  float: left;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+.tvhot .tvhot3 .tvhot3bottom div ul li p {
+  color: #150b09;
+  font-size: 16px;
+  margin: 0px;
+  font-weight: bolder;
+}
+.tvhot .tvhot3 .tvhot3bottom div ul li span {
+  color: #828587;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.partnerbox {
+  border-top: 1px solid #d9d9de;
+}
+.partnerbox .partner {
+  width: 1180px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.partnerbox .partner p {
+  font-size: 18px;
+  color: #150b09;
+  line-height: 60px;
+  font-weight: bolder;
+}

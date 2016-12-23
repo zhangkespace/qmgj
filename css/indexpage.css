@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "微软雅黑";
+}
+img {
+  border: none;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.clear:after {
+  display: block;
+  content: "";
+  height: 0px;
+  clear: both;
+  overflow: hidden;
+}
+.clear {
+  -ms-zoom: 1;
+}
+.container {
+  margin: 0px auto;
+  width: 1180px;
+}
+.header {
+  width: 1180px;
+  height: 70px;
+  border-bottom: 1px solid #d9d9de;
+}
+.header .logo {
+  float: left;
+  margin-top: 23px;
+  margin-right: 20px;
+}
+.header .nav {
+  float: left;
+  border-right: 1px solid #d9d9de;
+}
+.header .nav ul li {
+  float: left;
+}
+.header .nav ul li a {
+  line-height: 70px;
+  color: #828587;
+  width: 70px;
+  height: 70px;
+  display: block;
+  text-align: center;
+  margin: 0px 25px;
+}
+.header .nav ul li a:hover {
+  background-color: #f5f6f7;
+}
+.header .nav ul li a.navActive {
+  background-color: #f5f6f7;
+}
+.header .search {
+  float: left;
+  padding-top: 25px;
+  padding-left: 40px;
+}
+.header .search img {
+  vertical-align: middle;
+}
+.header .search input {
+  border: none;
+  outline: none;
+}
+.header div {
+  float: right;
+}
+.header div .login {
+  font-size: 14px;
+  color: #ff4200;
+  line-height: 70px;
+  margin-left: 30px;
+}
+.header div .register {
+  font-size: 14px;
+  color: #ff4200;
+  line-height: 70px;
+  margin-left: 30px;
+}
+.header div .person-login {
+  font-size: 14px;
+  color: black;
+  line-height: 70px;
+  margin-left: 30px;
+}
+.header div .person-register {
+  font-size: 14px;
+  color: #ff4200;
+  line-height: 70px;
+  margin-left: 30px;
+}
+.copyright {
+  background-color: #150b09;
+  height: 100px;
+}
+.copyright .copyrightleft {
+  float: left;
+}
+.copyright .copyrightleft a {
+  line-height: 100px;
+  font-size: 14px;
+  color: #828587;
+}
+.copyright .copyrightleft a:nth-child(2) {
+  color: #ff4200;
+}
+.copyright .copyrightright {
+  float: right;
+  margin-top: 38px;
+}
+.copyright .copyrightright span {
+  font-size: 14px;
+  color: #828587;
+}
+.copyright .copyrightright a img {
+  vertical-align: middle;
+}

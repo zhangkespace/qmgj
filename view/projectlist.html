@@ -1,0 +1,56 @@
+<div class="projectlist-filter">
+	<div class="container">
+		<div class="filter1 clear">
+			<a href="" ng-repeat="filterarr1 in arr1" ng-class="{filteractive:filter1index==$index}" ng-click="filterFun1($index)">{{filterarr1}}</a>
+		</div>
+		<div class="filter2 clear">
+			<a href="" ng-repeat="filterarr2 in arr2" ng-class="{filteractive:filter2index==$index}" ng-click="filterFun2($index)">{{filterarr2}}</a>
+		</div>
+		<div class="filter3 clear">
+			<a href="" ng-repeat="filterarr3 in arr3" ng-class="{filteractive:filter3index==$index}" ng-click="filterFun3($index)">{{filterarr3}}</a>
+		</div>
+	</div>
+</div>
+<div class="projectlist-centent clear container">
+	<div class="tvhot1" ng-repeat="list in listarr |filter:myFilter1 |filter:myFilter2">
+        <div class="tvhot1img">
+            <a ui-sref="project" title=""><img ng-src="{{list.bigimg}}" alt=""></a>
+        </div>
+        <div class="tvhot1bottom">
+            <h3>{{list.name}}</h3>
+            <span>{{list.from}}</span>
+            <p>{{list.introduce}}</p>
+            <div>
+                <span><img src="img/huaju.png" alt="">{{list.type}}</span>
+                <img ng-src="{{list.img}}" alt="">
+                <ul class="clear">
+                    <li>
+                        <p>{{list.plan}}</p>
+                        <span>进度</span>
+                    </li>
+                    <li>
+                        <p>{{list.money}}</p>
+                        <span>支持金额</span>
+                    </li>
+                    <li>
+                        <p>{{list.number}}</p>
+                        <span>剩余天数</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="projectlist-bottom container">
+	<center>
+		<a href="">1</a>
+		<a href="">2</a>
+		<a href="">3</a>
+		<a href="">4</a>
+		<a href="">5</a>
+		<a href="">6</a>
+		<span>&#8226&#8226&#8226</span>
+		<a href="">&#62</a>
+		<a href="">尾页</a>
+	</center>
+</div>

@@ -1,0 +1,141 @@
+.personlist1-top {
+  padding: 20px 45px 40px 40px;
+  background-color: white;
+  background-color: 1px solid #eeeeee;
+}
+.personlist1-top .personlist1-topTitle {
+  padding: 7px 0px;
+  border-bottom: 1px solid #d9d9de;
+}
+.personlist1-top .personlist1-topTitle h3 {
+  border-left: 4px solid #43aefc;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #150b09;
+  padding-left: 10px;
+}
+.personlist1-top .attentionItem {
+  float: left;
+  margin-top: 30px;
+  margin-right: 4%;
+  width: 48%;
+  padding: 0px 0px;
+  border: 1px solid #dcdce0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.personlist1-top .attentionItem:nth-of-type(odd) {
+  margin-right: 0;
+}
+.personlist1-top .attentionItem .attentionItem-left {
+  width: 43%;
+  height: 123px;
+  float: left;
+}
+.personlist1-top .attentionItem .attentionItem-left img {
+  width: 100%;
+  height: 100%;
+}
+.personlist1-top .attentionItem .attentionItem-right {
+  float: right;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 15px 0px;
+}
+.personlist1-top .attentionItem .attentionItem-right a {
+  font-size: 14px;
+  color: #150b09;
+  line-height: 27px;
+  font-weight: bolder;
+}
+.personlist1-top .attentionItem .attentionItem-right p {
+  font-size: 11px;
+  color: #828282;
+}
+.personlist1-top .attentionItem .attentionItem-right h2 {
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 10px;
+}
+.personlist1-top .attentionItem .attentionItem-right h2 span {
+  font-weight: bolder;
+}
+.personlist1-bottom {
+  padding: 20px 45px 40px 40px;
+  background-color: white;
+  background-color: 1px solid #eeeeee;
+  margin-top: 15px;
+}
+.personlist1-bottom .personlist1-bottomTitle {
+  padding: 7px 0px;
+  border-bottom: 1px solid #d9d9de;
+}
+.personlist1-bottom .personlist1-bottomTitle h3 {
+  border-left: 4px solid #43aefc;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #150b09;
+  padding-left: 10px;
+}
+.personlist1-bottom .tvhot1 {
+  width: 31%;
+  border: 1px solid #a7a9aa;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  float: left;
+  margin-top: 4%;
+  margin-right: 3.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.personlist1-bottom .tvhot1:nth-of-type(4) {
+  margin-right: 0;
+}
+.personlist1-bottom .tvhot1 .tvhot1img {
+  width: 100%;
+  height: 235px;
+}
+.personlist1-bottom .tvhot1 .tvhot1img img {
+  width: 100%;
+  height: 100%;
+}
+.personlist1-bottom .tvhot1 .tvhot1bottom {
+  padding: 15px;
+}
+.personlist1-bottom .tvhot1 .tvhot1bottom h3 {
+  color: #150b09;
+  font-size: 14px;
+}
+.personlist1-bottom .tvhot1 .tvhot1bottom span {
+  font-size: 11px;
+  color: #828587;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: block;
+}
+.personlist1-bottom .tvhot1 .tvhot1bottom p {
+  color: #828587;
+  font-size: 11px;
+}
+.personlist1-bottom .tvhot1 .tvhot1bottom div img {
+  width: 90%;
+}
+.personlist1-bottom .tvhot1 .tvhot1bottom div ul li {
+  float: left;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+.personlist1-bottom .tvhot1 .tvhot1bottom div ul li p {
+  color: #150b09;
+  font-size: 16px;
+  margin: 0px;
+  font-weight: bolder;
+}
+.personlist1-bottom .tvhot1 .tvhot1bottom div ul li span {
+  color: #828587;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

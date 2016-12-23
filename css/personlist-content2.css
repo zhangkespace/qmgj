@@ -1,0 +1,80 @@
+.personlist2 {
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-bottom: 30px;
+  background-color: white;
+}
+.personlist2 .personlist2-left {
+  float: left;
+  width: 6%;
+  margin-right: 30px;
+}
+.personlist2 .personlist2-left p {
+  float: right;
+  font-size: 12px;
+  color: #150b09;
+  margin-bottom: 30px;
+}
+.personlist2 .personlist2-left p:nth-child(1) {
+  height: 70px;
+  line-height: 70px;
+}
+.personlist2 .personlist2-left p:nth-child(2) {
+  height: 25px;
+  line-height: 25px;
+}
+.personlist2 .personlist2-right {
+  float: left;
+  width: 40%;
+}
+.personlist2 .personlist2-right img {
+  margin-bottom: 23px;
+}
+.personlist2 .personlist2-right input {
+  display: block;
+  height: 25px;
+}
+.personlist2 .personlist2-right .sexbox {
+  font-size: 12px;
+  color: #6a6a6a;
+  margin-top: 28px;
+  margin-bottom: 30px;
+}
+.personlist2 .personlist2-right .sexbox input {
+  display: inline-block;
+  height: 12px;
+  vertical-align: middle;
+}
+.personlist2 .personlist2-right .filterbox {
+  float: left;
+  font-size: 12px;
+  width: 90px;
+  margin-bottom: 20px;
+}
+.personlist2 .personlist2-right .filterbox a {
+  color: #6a6a6a;
+}
+.personlist2 .personlist2-right .filterbox a span {
+  width: 11px;
+  height: 11px;
+  border: 1px solid #dcdce0;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+.personlist2 .personlist2-right .filterbox a span.filterActive {
+  background: url("../img/honggou.png") no-repeat;
+}
+.personlist2 .personbaocun {
+  width: 140px;
+  height: 45px;
+  display: block;
+  line-height: 45px;
+  text-align: center;
+  background-color: #ff4200;
+  color: white;
+  font-size: 14px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  margin: 30px 0;
+}

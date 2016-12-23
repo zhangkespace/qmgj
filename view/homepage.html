@@ -1,0 +1,168 @@
+<div class="banner">
+    <a href="#" title=""><img ng-src="img/banner1.png" ng-show="bannerindex==0" alt=""></a>
+    <a href="#" title=""><img ng-src="img/homepage2.png" ng-show="bannerindex==1" alt=""></a>
+    <img class="prev" ng-src="img/prev.png" ng-click="prev()" alt="">
+    <div class="bannertitle">
+        <h1>{{bannerh1}}</h1>
+        <p>{{bannerp}}</p>
+        <div>
+            <a ui-sref="project.project-detailsleft1" title="">查看项目</a>
+        </div>
+    </div>
+    <img class="next" ng-src="img/next.png" ng-click="next()" alt="">
+</div>
+<div class="hotitem">
+    <div class="container clear">
+        <div class="hotitemleft">
+            <p>热门项目</p>
+            <img src="img/homepage1.png" alt="">
+        </div>
+        <div class="hotitemcenter clear">
+            <a ui-sref="projectlist" title="" ng-click="navFun(1)">查看更多</a>
+            <h3>《晚秋》再现舞台</h3>
+            <span>by 韩国宝蓝影业有限公司</span>
+            <p>《晚秋》根据李满熙导演1966年的同名电影改编而成，影片以美国西雅图为背景，讲述两名男女在异国他乡的爱情故事。</p>
+            <div>
+                <span><img src="img/huaju.png" alt="">话剧</span>
+                <span><img src="img/tvicon.png" alt="">卫视推荐</span>
+                <img src="img/进度条.png" alt="">
+                <ul>
+                    <li>
+                        <p>48%</p>
+                        <span>进度</span>
+                    </li>
+                    <li>
+                        <p>￥15,4988</p>
+                        <span>支持金额</span>
+                    </li>
+                    <li>
+                        <p>173</p>
+                        <span>支持者</span>
+                    </li>
+                    <li>
+                        <p>6</p>
+                        <span>剩余天数</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="hotitemright">
+            <ul class="clear">
+                <li><a href="#" title="">微电影</a></li>
+                <li><a href="#" title="">电影</a></li>
+                <li><a href="#" title="">电视剧</a></li>
+                <li><a href="#" title="">传统戏曲</a></li>
+                <li><a href="#" title="">话剧</a></li>
+                <li><a href="#" title="">书画</a></li>
+                <li><a href="#" title="">相声</a></li>
+                <li><a href="#" title="">戏剧</a></li>
+                <li><a href="#" title="">音乐剧</a></li>
+                <li><a href="#" title="">纪录片</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="tvhot container clear">
+    <div class="tvhottop clear">
+        <p>卫视主推</p>
+        <div>
+            <a ui-sref="projectlist" title="" ng-click="navFun(1)">查看全部</a>
+        </div>
+    </div>
+    <div class="tvhot1">
+        <div class="tvhot1img">
+            <a ui-sref="project.project-detailsleft1" title=""><img src="img/homepage2.png" alt=""></a>
+        </div>
+        <div class="tvhot1bottom">
+            <h3>《犹太人在上海》音乐剧</h3>
+            <span>by 恒源祥戏剧创意</span>
+            <p>中国、以色列联合创作的大型音乐剧《犹太人在上海》以音乐剧这一公认最具挑战性的艺术形式...</p>
+            <div>
+                <span><img src="img/huaju.png" alt="">音乐剧</span>
+                <img src="img/进度条1.png" alt="">
+                <ul class="clear">
+                    <li>
+                        <p>48%</p>
+                        <span>进度</span>
+                    </li>
+                    <li>
+                        <p>￥15,4988</p>
+                        <span>支持金额</span>
+                    </li>
+                    <li>
+                        <p>6</p>
+                        <span>剩余天数</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="tvhot2">
+        <div class="tvhot2img">
+            <a ui-sref="project.project-detailsleft1" title=""><img src="img/homepage3.png" alt=""></a>
+        </div>
+        <div class="tvhot2bottom">
+            <h3>《鬼吹灯》微电影周剧</h3>
+            <span>by 上海微影视</span>
+            <p>《鬼吹灯》是一部中国大陆的网络小说，作者为天下霸唱，主要内容是盗墓寻宝...</p>
+            <div>
+                <span><img src="img/huaju.png" alt="">微电影</span>
+                <img src="img/进度条2.png" alt="">
+                <ul class="clear">
+                    <li>
+                        <p>48%</p>
+                        <span>进度</span>
+                    </li>
+                    <li>
+                        <p>￥15,4988</p>
+                        <span>支持金额</span>
+                    </li>
+                    <li>
+                        <p>6</p>
+                        <span>剩余天数</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="tvhot3">
+        <div class="tvhot3img">
+            <a ui-sref="project.project-detailsleft1" title=""><img src="img/homepage4.png" alt=""></a>
+        </div>
+        <div class="tvhot3bottom">
+            <h3>《战马》音乐剧</h3>
+            <span>by 上海戏剧学院</span>
+            <p>《战马》改编自英国桂冠作家麦克·莫波格的同名小说,是一部影响力很广的...</p>
+            <div>
+                <span><img src="img/huaju.png" alt="">音乐剧</span>
+                <img src="img/进度条3.png" alt="">
+                <ul class="clear">
+                    <li>
+                        <p>48%</p>
+                        <span>进度</span>
+                    </li>
+                    <li>
+                        <p>￥15,4988</p>
+                        <span>支持金额</span>
+                    </li>
+                    <li>
+                        <p>6</p>
+                        <span>剩余天数</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="partnerbox">
+	
+<div class="container partner">
+    <p>合作单位</p>
+    <a href="#" title=""><img src="img/tv1.png" alt=""></a>
+    <a href="#" title=""><img src="img/tv2.png" alt=""></a>
+    <a href="#" title=""><img src="img/tv3.png" alt=""></a>
+    <a href="#" title=""><img src="img/tv1.png" alt=""></a>
+    <a href="#" title=""><img src="img/tv2.png" alt=""></a>
+    <a href="#" title=""><img src="img/tv3.png" alt=""></a>
+</div>
+</div>

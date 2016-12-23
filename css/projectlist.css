@@ -1,0 +1,110 @@
+.projectlist-filter {
+  background-color: #f7fafa;
+  border-bottom: 1px solid #d9d9de;
+  padding: 25px 0px;
+}
+.projectlist-filter .filter1,
+.projectlist-filter .filter2,
+.projectlist-filter .filter3 {
+  margin-top: 25px;
+}
+.projectlist-filter .filter1 a,
+.projectlist-filter .filter2 a,
+.projectlist-filter .filter3 a {
+  float: left;
+  padding: 10px;
+  margin-right: 10px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  display: block;
+  color: #4d4d4d;
+  font-size: 14px;
+}
+.projectlist-filter .filter1 a.filteractive,
+.projectlist-filter .filter2 a.filteractive,
+.projectlist-filter .filter3 a.filteractive {
+  background-color: #ff4200;
+  color: white;
+}
+.projectlist-filter .filter3 {
+  margin-bottom: 25px;
+}
+.projectlist-centent .tvhot1 {
+  width: 30%;
+  border: 1px solid #a7a9aa;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  float: left;
+  margin-top: 5%;
+  margin-right: 5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.projectlist-centent .tvhot1:nth-child(3n) {
+  margin-right: 0;
+}
+.projectlist-centent .tvhot1 .tvhot1img {
+  width: 100%;
+  height: 235px;
+}
+.projectlist-centent .tvhot1 .tvhot1img img {
+  width: 100%;
+  height: 100%;
+}
+.projectlist-centent .tvhot1 .tvhot1bottom {
+  padding: 15px;
+}
+.projectlist-centent .tvhot1 .tvhot1bottom h3 {
+  color: #150b09;
+  font-size: 14px;
+}
+.projectlist-centent .tvhot1 .tvhot1bottom span {
+  font-size: 11px;
+  color: #828587;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: block;
+}
+.projectlist-centent .tvhot1 .tvhot1bottom p {
+  color: #828587;
+  font-size: 11px;
+}
+.projectlist-centent .tvhot1 .tvhot1bottom div span {
+  color: #828587;
+  font-size: 12px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.projectlist-centent .tvhot1 .tvhot1bottom div ul li {
+  float: left;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+.projectlist-centent .tvhot1 .tvhot1bottom div ul li p {
+  color: #150b09;
+  font-size: 16px;
+  margin: 0px;
+  font-weight: bolder;
+}
+.projectlist-centent .tvhot1 .tvhot1bottom div ul li span {
+  color: #828587;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.projectlist-bottom center {
+  margin: 60px 0;
+}
+.projectlist-bottom center a {
+  display: inline-block;
+  padding: 10px 15px;
+  border: 1px solid #e0e0e4;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  color: black;
+  margin-right: 7px;
+}
+.projectlist-bottom center a:hover {
+  background-color: #ff4200;
+  color: white;
+}

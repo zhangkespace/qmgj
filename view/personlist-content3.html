@@ -1,0 +1,34 @@
+<div class="personlist-content3">
+    <div class="personlist3-title">
+        <a href="" title="" ng-click="personlist3Fun(1)" ng-class="{personlist3Active:personlist3Show==1}">修改密码</a>
+        <a href="" title="" ng-click="personlist3Fun(2)" ng-class="{personlist3Active:personlist3Show==2}">实名认证</a>
+        <a href="" title="" ng-click="personlist3Fun(3)" ng-class="{personlist3Active:personlist3Show==3}">邮箱认证</a>
+    </div>
+    <div class="personlist3-show1" ng-show="personlist3Show==1">
+        <p>&nbsp;&nbsp;&nbsp;当前密码&nbsp;&nbsp;&nbsp;
+            <input type="password" name="" value="" placeholder="">
+        </p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新密码&nbsp;&nbsp;&nbsp;
+            <input type="password" name="" value="" placeholder="">&nbsp;&nbsp;<span>(密码不少于6位)</span></p>
+        <p>已绑定手机 &nbsp;&nbsp;<span>136****0800</span></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;验证码&nbsp;&nbsp;&nbsp;
+            <input type="text" name="" value="" placeholder="输入验证码">&nbsp;<a href="" title="">免费获取验证码</a></p>
+    </div>
+    <div class="personlist3-show2" ng-show="personlist3Show==2">
+        <h4>身份证认证由NCIIC提供接口</h4>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;姓名&nbsp;&nbsp;
+            <input type="text" name="" value="" placeholder="">
+        </p>
+        <p>身份证号&nbsp;&nbsp;
+            <input type="text" name="" value="" placeholder="">
+        </p>
+    </div>
+    <div class="personlist3-show3" ng-show="personlist3Show==3">
+    	<p>邮箱地址
+            <input type="password" name="" value="" placeholder="">
+        </p>
+        <p>验证码&nbsp;&nbsp;&nbsp;
+            <input type="text" name="" value="" placeholder="输入验证码">&nbsp;<a href="" title="">发送验证码</a></p>
+    </div>
+    <a href="" class="personlist3-bottom">保存</a>
+</div>

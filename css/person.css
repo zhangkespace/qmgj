@@ -1,0 +1,80 @@
+.persontop {
+  background-color: #effaff;
+  border-bottom: 1px solid #d9d9de;
+}
+.persontop .persontop-left {
+  float: left;
+  padding: 35px 60px;
+}
+.persontop .persontop-left .peopleiconimg {
+  margin-top: 12px;
+  padding-left: 26px;
+}
+.persontop .persontop-left .peopleiconimg a img {
+  margin-right: 5px;
+}
+.persontop .persontop-right {
+  padding: 35px 0px;
+  width: 900px;
+  float: left;
+}
+.persontop .persontop-right h3 {
+  height: 65px;
+  line-height: 65px;
+  font-size: 18px;
+  color: #150b09;
+  border-bottom: 1px solid #d9d9de;
+  vertical-align: middle;
+}
+.persontop .persontop-right h3 span {
+  font-size: 14px;
+  color: #828282;
+  font-weight: normal;
+}
+.persontop .persontop-right div {
+  padding-top: 30px;
+}
+.persontop .persontop-right div p {
+  line-height: 32px;
+  font-size: 14px;
+  color: #828282;
+}
+.persontop .persontop-right div p span {
+  color: #fe8a18;
+}
+.personbottom {
+  background-color: #f5f4f3;
+  padding-top: 15px;
+  padding-bottom: 60px;
+}
+.personbottom .personlist {
+  border: 1px solid #eeeeee;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  width: 17%;
+  background-color: #ffffff;
+  float: left;
+}
+.personbottom .personlist a {
+  text-align: center;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px dashed #6a6a6a;
+  margin: 15px 50px 0px 50px;
+  font-size: 14px;
+  color: #6a6a6a;
+}
+.personbottom .personlist a:hover {
+  border-bottom: 1px dashed #fe8a18;
+  color: #ff4200;
+}
+.personbottom .personlist a.personlistActive {
+  border-bottom: 1px dashed #fe8a18;
+  color: #ff4200;
+}
+.personbottom .personlist-content {
+  float: right;
+  width: 82%;
+  border: 1px solid #eeeeee;
+}

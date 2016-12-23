@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html ng-app="qmgj">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<!-- inject:css -->
+	<link rel="stylesheet" href="/qmgj/dest/app-0db10c883b.min.css">
+	<!-- endinject -->
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	<!-- <script src="js/angular-ui-router.js"></script> -->
+</head>
+<body ng-controller="indexpageContrller">
+	<div class="header clear container">
+			<div class="logo">
+				<a ui-sref="homepage" ng-click="navFun(0)" title=""><img src="img/logo.png" alt=""></a>
+			</div>
+			<div class="nav">
+			    <ul class="clear">
+			    	<li><a ui-sref="homepage" title="" ng-class="{navActive:navindex==0}" ng-click="navFun(0)">首页</a></li>
+			    	<li><a ui-sref="projectlist" title="" ng-class="{navActive:navindex==1}" ng-click="navFun(1)">节目专栏</a></li>
+			    	<li><a href="" title="">圈子</a></li>
+			    </ul>			
+			</div>
+			<div class="search">
+				<img src="img/searchimg.png" alt="">
+				<input type="text" name="" value="" placeholder="输入您想要搜索的内容">
+			</div>
+			<div>
+				<a ui-sref="login" title="" class="login" ng-show="qqq==0">登录</a>
+				<a ui-sref="register" title="" class="register" ng-show="qqq==0">注册</a>
+				<a ui-sref="person" title="" class="person-login" ng-show="qqq==1">用户HZ17363525</a>
+				<a href="" class="person-register" ng-show="qqq==1" ng-click="persontuichuFun()">退出</a>
+			</div>
+	</div>
+	<div ui-view></div>
+	<div class="footer">
+		<div class="copyright">			
+			<div class="container">
+				<div class="copyrightleft">
+					<a href="#" title="">关于全民创造 |</a>
+					<a href="#" title="">全民创造用户协议</a>
+					<a href="#" title="">| 全民创造风险提示 |</a>
+					<a href="#" title="">联系我们</a>
+				</div>
+				<div class="copyrightright">
+					<a href="#" title=""><img src="img/logo2.png" alt=""></a>
+					<span>&#169 2015</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- inject:js -->
+	<script src="/qmgj/dest/app-d3ffc70bc2.min.js"></script>
+	<!-- endinject -->
+</body>
+</html>

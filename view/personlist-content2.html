@@ -1,0 +1,22 @@
+<div class="personlist2">
+    <div class="clear">
+        <div class="personlist2-left clear">
+            <p>修改头像</p>
+            <p>用户昵称</p>
+            <p>性别</p>
+            <p>关注圈子</p>
+        </div>
+        <div class="personlist2-right clear">
+            <img src="img/gaitouxiang.png" alt="">
+            <input type="text" name="" value="" placeholder="">
+            <div class="sexbox">
+                <input type="radio" name="sex" value="" placeholder="">男 &nbsp;
+                <input type="radio" name="sex" value="" placeholder="">女
+            </div>
+            <div class="filterbox" ng-repeat="aaa in arr">
+                <a href="" title="" ng-click="honggouFun($index)"><span ng-class="{filterActive:arr2[$index]}"></span>{{aaa}}</a>
+            </div>
+        </div>
+    </div>
+    <a href="" title="" class="personbaocun">保存</a>
+</div>

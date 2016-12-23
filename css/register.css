@@ -1,0 +1,104 @@
+.register-top {
+  width: 400px;
+  padding: 0px 25px;
+  border: 1px solid #dbdbe0;
+  margin: 50px auto 0px;
+  -webkit-border-radius: 5px 5px 0 0;
+          border-radius: 5px 5px 0 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+}
+.register-top form h2 {
+  color: #150b09;
+  font-size: 20px;
+  font-family: "微软雅黑";
+  line-height: 90px;
+}
+.register-top form input {
+  height: 40px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #11a6ff;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+.register-top form div {
+  margin-bottom: 40px;
+}
+.register-top form div input {
+  height: 40px;
+  outline: none;
+  border: 1px solid #11a6ff;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  width: 70%;
+  font-size: 12px;
+  float: left;
+  margin-bottom: 0px;
+}
+.register-top form div button {
+  background-color: #f7fafa;
+  height: 40px;
+  padding: 14px 12px;
+  border: 1px solid #11a6ff;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  vertical-align: bottom;
+  width: 100px;
+  float: left;
+  color: black;
+  margin-bottom: 0px;
+}
+.register-top form button {
+  background-color: #2bde73;
+  height: 40px;
+  border: 1px solid #11a6ff;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  margin-bottom: 40px;
+}
+.register-top form p {
+  color: #ff0000;
+  font-size: 11px;
+  font-family: "微软雅黑";
+  position: absolute;
+}
+.register-top form p:nth-of-type(1) {
+  top: 143px;
+}
+.register-top form p:nth-of-type(2) {
+  top: 227px;
+}
+.register-top form p:nth-of-type(3) {
+  top: 307px;
+}
+.register-top form p:nth-of-type(3).active {
+  top: 227px;
+}
+.register-bottom {
+  width: 400px;
+  border: 1px solid #dbdbe0;
+  border-top: none;
+  -webkit-border-radius: 0 0 5px 5px;
+          border-radius: 0 0 5px 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px auto;
+  background-color: #f7f7f8;
+  line-height: 60px;
+  color: #838383;
+  font-size: 12px;
+  font-family: "微软雅黑";
+  text-align: center;
+  margin-bottom: 50px;
+}
+.register-bottom a {
+  color: #00a0ff;
+}

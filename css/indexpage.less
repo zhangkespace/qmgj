@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "微软雅黑"
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.clear:after {
+    display: block;
+    content: "";
+    height: 0px;
+    clear: both;
+    overflow: hidden;
+}
+
+.clear {
+    -ms-zoom: 1
+}
+
+.container {
+    margin: 0px auto;
+    width: 1180px;
+}
+
+.header {
+    width: 1180px;
+    height: 70px;
+    border-bottom: 1px solid #d9d9de;
+    .logo {
+        float: left;
+        margin-top: 23px;
+        margin-right: 20px;
+    }
+    .nav {
+        float: left;
+        border-right: 1px solid #d9d9de;
+        ul {
+            li {
+                float: left;
+                
+                a {
+                    line-height: 70px;
+                    color: #828587;
+                    width: 70px;
+                    height: 70px;
+                    display: block;
+                    text-align: center;
+                    margin: 0px 25px;
+                    &:hover{
+                       background-color: #f5f6f7;
+                    }
+                    &.navActive{
+                    	background-color: #f5f6f7;
+                    }
+                }
+
+            }
+        }
+    }
+    .search {
+        float: left;
+        padding-top: 25px;
+        padding-left: 40px;
+        img {
+            vertical-align: middle;
+        }
+        input {
+            border: none;
+            outline: none;
+        }
+    }
+    div {
+    	float: right;
+        .login {
+            // float: right;
+            font-size: 14px;
+            color: #ff4200;
+            line-height: 70px;
+            margin-left: 30px;
+        }
+        .register {
+            // float: right;
+            font-size: 14px;
+            color: #ff4200;
+            line-height: 70px;
+            margin-left: 30px;
+        }
+        .person-login {
+            // float: right;
+            font-size: 14px;
+            color: black;
+            line-height: 70px;
+            margin-left: 30px;
+        }
+        .person-register {
+            // float: right;
+            font-size: 14px;
+            color: #ff4200;
+            line-height: 70px;
+            margin-left: 30px;
+        }
+    }
+}
+
+// .footer{border-top: 1px solid #d9d9de;}
+.copyright {
+    background-color: #150b09;
+    height: 100px;
+    .copyrightleft {
+        float: left;
+        a {
+            line-height: 100px;
+            font-size: 14px;
+            color: #828587;
+        }
+        a:nth-child(2) {
+            color: #ff4200;
+        }
+    }
+    .copyrightright {
+        float: right;
+        margin-top: 38px;
+        span {
+            font-size: 14px;
+            color: #828587;
+        }
+        a {
+            img {
+                vertical-align: middle;
+            }
+        }
+    }
+}
+
+// @import url('view/homepage.css');
+// @import url('view/login.css');
+// @import url('view/register.css');
+// @import url('view/project.css');
+// @import url('view/project-detailsleft1.css');
+// @import url('view/projectlist.css');
+// @import url('view/person.css');
+// @import url('view/personlist-content1.css');
+// @import url('view/personlist-content2.css');
+// @import url('view/personlist-content3.css');
+// @import url('view/personlist-content4.css');
+// @import url('view/personlist-content5.css');
+// @import url('view/order1.css');
+// @import url('view/order2.css');
+// @import url('view/order3.css');

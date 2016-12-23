@@ -1,0 +1,20 @@
+<div class="register-top">
+    <form action="" name="myForm" ng-model="myForm" novalidate>
+        <h2>注册</h2>
+        <input type="text" name="phone" ng-model="phone" placeholder="请输入您的手机号码" required ng-pattern='/^(1[^012][0-9]{9})$/'>
+        <p ng-show="myForm.phone.$error.pattern&&myForm.phone.$dirty">您输入的号码有误，请检查！</p>
+        <div class="clear">
+            <input type="text" name="yanzhengma" ng-model="yanzhengma" value="" placeholder="输入验证码" required>
+            <button type="button" ng-click="clickFn1()">{{button1}}</button>
+        </div>
+        <p ng-show="myForm.yanzhengma.$error.required&&myForm.yanzhengma.$dirty">验证码错误，请重新输入！</p>
+        <input type="password" name="password" ng-model="password" value="" placeholder="请输入密码，不小于6位" required ng-minlength='6'>
+        <p ng-show="myForm.password.$error.minlength&&myForm.password.$dirty" ng-class="{active:i==1}">请输入大于6位的密码！</p>
+        <button type="button" ng-click="formValid()">注册</button>
+        <!-- <label>
+            <input type="checkbox" name="" value="">同意《全民创造用户协议》</label> -->
+    </form>
+</div>
+<div class="register-bottom">
+    已有账户？<a ui-sref="login" title="">登录</a>
+</div>

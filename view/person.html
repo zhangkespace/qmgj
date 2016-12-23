@@ -1,0 +1,35 @@
+<div class="persontop">
+    <div class="container clear">
+        <div class="persontop-left">
+            <div class="peopleicon">
+                <img src="img/peopleicon.png" alt="">
+            </div>
+            <div class="peopleiconimg">
+                <a href="" title=""><img src="img/phone.png" alt=""></a>
+                <a href="" title=""><img src="img/Information.png" alt=""></a>
+                <a href="" title=""><img src="img/personage.png" alt=""></a>
+            </div>
+        </div>
+        <div class="persontop-right">
+            <h3>用户HZ17363525 &nbsp;<span>下午好！</span></h3>
+            <div>
+                <p>账户安全等级：<img src="img/safetylevel.png" alt=""> &nbsp;&nbsp;
+                    <span>中</span>
+                </p>
+                <p>上次登录时间：2015-09-15 &nbsp;18：29：49</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="personbottom">
+    <div class="container clear">
+        <div class="personlist">
+            <a ui-sref="person.personlist-content1" title="" ng-click="personlistFun(0)" ng-class="{personlistActive:index==0}">个人主页</a>
+            <a ui-sref="person.personlist-content2" title="" ng-click="personlistFun(1)" ng-class="{personlistActive:index==1}">个人信息</a>
+            <a ui-sref="person.personlist-content3" title="" ng-click="personlistFun(2)" ng-class="{personlistActive:index==2}">安全设置</a>
+            <a ui-sref="person.personlist-content4" title="" ng-click="personlistFun(3)" ng-class="{personlistActive:index==3}">关注的圈子</a>
+            <a ui-sref="person.personlist-content5" title="" ng-click="personlistFun(4)" ng-class="{personlistActive:index==4}">购买记录</a>
+        </div>
+        <div ui-view class="personlist-content"></div>
+    </div>
+</div>
